@@ -1,28 +1,45 @@
-# ConFusion
+# Simple Web Apllication with angular 4 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+This project done while learning angular from the [Angular Course](https://www.coursera.org/learn/angular) in [Coursera](https://www.coursera.org/) 
 
-## Development server
+which is the second part of [Full Stack Web Development](https://www.coursera.org/specializations/full-stack-mobile-app-development)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ by [Hong Kong University of Science and Technology](http://www.ust.hk/)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. To install angular-cli globally:
 
-## Build
+```
+npm install -g @angular/cli
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+2. To install dependencies:
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Install json-server globally:
 
-## Running end-to-end tests
+```
+npm install json-server -g
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+4. Change directory to `/src/assets/json-server` and run the server by:
 
-## Further help
+```
+json-server --watch db.json -d 2000
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+5. Change directory to where you clone project and run the web app by:
+
+```
+ng serve open 
+```
+
+6. Finally open the browser and and open: 
+
+`http://localhost:4200/`
+
+
